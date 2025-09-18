@@ -1,0 +1,18 @@
+<svg width="2660" height="588" viewBox="0 0 2660 588" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paint0_linear_2004_2" x1="1593" y1="5.91281e-07" x2="1587.97" y2="712.251" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2EDE6"/>
+      <stop offset="1" stop-color="#1F1D1D"/>
+    </linearGradient>
+  </defs>
+
+  <text x="50%" y="50%"
+        font-family="Arial, sans-serif"
+        font-weight="bold"
+        font-size="520"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        fill="url(#paint0_linear_2004_2)">
+    Bikash©
+  </text>
+</svg>
