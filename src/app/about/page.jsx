@@ -18,9 +18,12 @@ const page = () => {
             <div className="studio-hero-col">
               <Copy delay={0.85}>
                 <p>
-                  We see design as more than construction. It is an ongoing
+                  {/* We see design as more than construction. It is an ongoing
                   dialogue between people, material, and place, shaped with
-                  care, and built to endure.
+                  care, and built to endure. */}
+                  I see development as more than code.It is about crafting
+                  powerful experiences and scalable solutions that create
+                  lasting digital impact.
                 </p>
               </Copy>
             </div>
@@ -36,7 +39,9 @@ const page = () => {
                 </h2>
               </Copy>
               <div className="studio-hero-hero-img">
-                <img src="/studio/about-hero.png" alt="" />
+                {/* <img src="/studio/studio.png" alt="" /> */}
+                <img src="/studio/studio.png" alt="" />
+
               </div>
             </div>
           </div>
@@ -46,32 +51,35 @@ const page = () => {
             <div className="more-facts-items">
               <div className="fact">
                 <Copy delay={0.1}>
-                  <p>Models crafted</p>
-                  <h2>120+</h2>
+                  <p>Projects Completed</p>
+                  <h2>50+</h2>
                 </Copy>
               </div>
               <div className="fact">
                 <Copy delay={0.2}>
-                  <p>Materials explored</p>
-                  <h2>60</h2>
+                  <p>Technologies mastered</p>
+                  <h2>10+</h2>
                 </Copy>
               </div>
               <div className="fact">
                 <Copy delay={0.3}>
-                  <p>Workshops hosted</p>
-                  <h2>25+</h2>
+                  <p>Collaborations</p>
+                  <h2>20+</h2>
                 </Copy>
               </div>
               <div className="fact">
                 <Copy delay={0.4}>
-                  <p>Hours logged</p>
-                  <h2>3k+</h2>
+                  <p>
+                    Hours logged
+                  </p>
+                  <h2>3K+</h2>
                 </Copy>
               </div>
               <div className="fact">
                 <Copy delay={0.5}>
-                  <p>Prototypes build</p>
-                  <h2>724</h2>
+                  <p>Lines of code written
+                  </p>
+                  <h2>1M+</h2>
                 </Copy>
               </div>
             </div>
@@ -85,8 +93,10 @@ const page = () => {
         <CTAWindow
           img="/studio/about-cta-window.jpg"
           header="The Archive"
-          callout="Designs that speak through form"
-          description="Each project tells a story of light, material, and rhythm. Explore how ideas take shape and grow into lasting environments."
+          callout="Designs that speak through code"
+          // description="Each project tells a story of light, material, and rhythm. Explore how ideas take shape and grow into lasting environments."
+          description="Each project tells a story of logic, design, and flow. Explore how ideas take shape and grow into lasting applications."
+
         />
         <Spotlight />
       </div>

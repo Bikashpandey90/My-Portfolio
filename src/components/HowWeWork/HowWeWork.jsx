@@ -159,61 +159,72 @@ const HowWeWork = () => {
       <div className="how-we-work-col how-we-work-cards" ref={cardsRef}>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/process-1.jpg" alt="" />
+            <img src="/how-we-work/discovery.png" alt="" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
-              <h3>Discovery / Context</h3>
+              <h3>Discovery & Planning</h3>
             </div>
             <p className="md">
-              We begin with listening and study. Site, climate, and daily
+              {/* We begin with listening and study. Site, climate, and daily
               routines inform the brief so we can define aims, constraints, and
-              measures of success with clarity.
+              measures of success with clarity. */}
+              I begin by understanding your goals,your users and your product's
+              vision. The foundation of every project is solid planning and clear
+              communication.
             </p>
           </div>
         </div>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/process-2.jpg" alt="" />
+            <img src="/how-we-work/design.png" alt="" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
-              <h3>Principles / Direction</h3>
+              <h3>Architecture Design</h3>
             </div>
             <p className="md">
-              We set guiding principles for light, massing, and flow. Quick
+              {/* We set guiding principles for light, massing, and flow. Quick
               models and diagrams test options and reveal the direction that
-              best serves the brief.
+              best serves the brief. */}
+              After planning, I focus on setting creating a scalable,clean
+              architecture that will ensure the smooth functioning of the
+              entire application.
             </p>
           </div>
         </div>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/process-3.jpg" alt="" />
+            <img src="/how-we-work/development.png" alt="" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
-              <h3>Detail / Coordination</h3>
+              <h3>Development</h3>
             </div>
             <p className="md">
-              We develop drawings and specifications across structure, services,
+              {/* We develop drawings and specifications across structure, services,
               and joinery. Materials and samples are reviewed in natural light
-              while budget and timeline stay in view.
+              while budget and timeline stay in view. */}
+              Leveraging the MERN stack, I develop both front-end and back-end,ensuring
+              seamless integration and responsiveness across all devices.
             </p>
           </div>
         </div>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/process-4.jpg" alt="" />
+            <img src="/how-we-work/deployment.png" alt="" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
-              <h3>Build / Handover</h3>
+              <h3>Testing & Deployment</h3>
             </div>
             <p className="md">
-              We oversee construction with care and precision. After final
+              {/* We oversee construction with care and precision. After final
               review and finishing, we hand over a space that is ready to live
-              in, complete with guidance for long term care.
+              in, complete with guidance for long term care. */}
+              After rigorous testing and optimization to ensure performance and
+              functionality, the final product is deployed, ensuring an optimized
+              user experience.
             </p>
           </div>
         </div>

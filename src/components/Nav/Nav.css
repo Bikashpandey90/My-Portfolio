@@ -22,6 +22,7 @@
   gap: 2rem;
   background-color: var(--base-450);
   border-radius: 2rem;
+  overflow: hidden;
 }
 
 .col {

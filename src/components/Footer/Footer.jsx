@@ -92,10 +92,10 @@ const Footer = () => {
                   <h3>My Works</h3>
                 </a>
                 <a
-                  href="/sample-space"
+                  href="/eca-nepal"
                   onClick={(e) => {
                     e.preventDefault();
-                    navigateWithTransition("/sample-space");
+                    navigateWithTransition("/eca-nepal");
                   }}
                 >
                   <h3>Current Project</h3>
@@ -154,7 +154,7 @@ const Footer = () => {
       <div className="footer-outro">
         <div className="container">
           <div className="footer-header">
-            <img src="/logos/terrene-footer-logo.svg" alt="" />
+            <img src="/logos/check.svg" alt="" />
           </div>
           <div className="footer-copyright">
             <p>

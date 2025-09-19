@@ -2,13 +2,13 @@ export const spacesData = [
   {
     id: 1,
     categories: ["Retreat", "Wellness"],
-    image: "/spaces/ridonew.png",
+    image: "/spaces/rido2.png",
     date: "June 10, 2021",
     name: "Rido Platform",
     location: "Cross-Device Web App",
     clientImage: "/spaces/client-1.jpeg",
     clientName: "Marina Li",
-    route: "/sample-space",
+    route: "/rido",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const spacesData = [
     location: "Fullstack Ecommerce ",
     clientImage: "/spaces/client-2.jpeg",
     clientName: "Alex Chen",
-    route: "/sample-space",
+    route: "/ecomstore",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const spacesData = [
     location: "Social Collaboration",
     clientImage: "/spaces/client-3.jpeg",
     clientName: "Sophia Rodriguez",
-    route: "/sample-space",
+    route: "/eca-nepal",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const spacesData = [
     location: "Internal Tooling",
     clientImage: "/spaces/client-4.jpeg",
     clientName: "David Kim",
-    route: "/sample-space",
+    route: "/admin-dashboard",
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const spacesData = [
     location: "Luxury Retail",
     clientImage: "/spaces/client-5.jpeg",
     clientName: "Emma Wilson",
-    route: "/sample-space",
+    route: "/flower&saints",
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ export const spacesData = [
     location: "Information Access",
     clientImage: "/spaces/client-6.jpeg",
     clientName: "Aiko Tanaka",
-    route: "/sample-space",
+    route: "/search-engine",
 
   },
   {
@@ -75,6 +75,6 @@ export const spacesData = [
     location: "GSAP Animation",
     clientImage: "/spaces/client-7.jpeg",
     clientName: "Omar Rahman",
-    route: "/sample-space",
+    route: "/dbrand",
   },
 ];

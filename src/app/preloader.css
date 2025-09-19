@@ -35,7 +35,8 @@
 
 .loader #word-1 {
   position: relative;
-  left: 0rem;
+  /* left: 0rem; */
+  left: 0.5rem;
   padding-right: 0.25rem;
   color: var(--base-100);
 }

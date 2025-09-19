@@ -14,7 +14,8 @@ const ProcessCards = () => {
       title: "Principles",
       image: "/images/process/process_001.jpeg",
       description:
-        "We design with restraint and intention. Every decision is shaped by a set of values—clarity, structure, and calm execution.",
+        // "We design with restraint and intention. Every decision is shaped by a set of values—clarity, structure, and calm execution.",
+        "I begin by understanding your goals,your users and your product's vision. The foundation of every project is solid planning and clear communication.",
     },
     {
       index: "02",

@@ -16,6 +16,7 @@ import FeaturedProjects from "@/components/FeaturedProjects/FeaturedProjects";
 import ClientReviews from "@/components/ClientReviews/ClientReviews";
 import CTAWindow from "@/components/CTAWindow/CTAWindow";
 import Copy from "@/components/Copy/Copy";
+import Cursor from "@/components/Cursor/Cursor";
 
 let isInitialLoad = true;
 gsap.registerPlugin(ScrollTrigger, CustomEase);
@@ -226,6 +227,7 @@ export default function Home() {
           </div>
         </div>
       )}
+      <Cursor />
       <Nav />
       <section className="hero">
         <div className="hero-bg">
@@ -263,26 +265,26 @@ export default function Home() {
             <div className="stat">
               <div className="stat-count">
                 <Copy delay={0.1}>
-                  <h2>225+</h2>
+                  <h2>25+</h2>
                 </Copy>
               </div>
               <div className="stat-divider"></div>
               <div className="stat-info">
                 <Copy delay={0.15}>
-                  <p>Completed design studies</p>
+                  <p>Completed Projects</p>
                 </Copy>
               </div>
             </div>
             <div className="stat">
               <div className="stat-count">
                 <Copy delay={0.2}>
-                  <h2>36</h2>
+                  <h2>15+</h2>
                 </Copy>
               </div>
               <div className="stat-divider"></div>
               <div className="stat-info">
                 <Copy delay={0.25}>
-                  <p>Ongoing spatial explorations</p>
+                  <p>Technology Utilized</p>
                 </Copy>
               </div>
             </div>
@@ -295,7 +297,8 @@ export default function Home() {
               <div className="stat-divider"></div>
               <div className="stat-info">
                 <Copy delay={0.35}>
-                  <p>Cross-disciplinary collaborators</p>
+                  <p>Cross-Disciplinary Collaboration
+                  </p>
                 </Copy>
               </div>
             </div>
@@ -308,7 +311,7 @@ export default function Home() {
               <div className="stat-divider"></div>
               <div className="stat-info">
                 <Copy delay={0.45}>
-                  <p>Return rate across commissions</p>
+                  <p>Code Efficiency</p>
                 </Copy>
               </div>
             </div>
@@ -415,22 +418,25 @@ export default function Home() {
           <div className="gallery-callout-col">
             <div className="gallery-callout-row">
               <div className="gallery-callout-img gallery-callout-img-1">
-                <img src="/gallery-callout/gallery-callout-1.jpg" alt="" />
+                {/* <img src="/gallery-callout/gallery-callout-1.jpg" alt="" /> */}
+                <img src="/spaces/rido2.png" alt="" />
+
               </div>
               <div className="gallery-callout-img gallery-callout-img-2">
-                <img src="/gallery-callout/gallery-callout-2.jpg" alt="" />
+                <img src="/spaces/ecomstore.png" alt="" />
+
                 <div className="gallery-callout-img-content">
-                  <h3>20 +</h3>
+                  <h3>25 +</h3>
                   <p>Projects Built</p>
                 </div>
               </div>
             </div>
             <div className="gallery-callout-row">
               <div className="gallery-callout-img gallery-callout-img-3">
-                <img src="/gallery-callout/gallery-callout-3.jpg" alt="" />
+                <img src="/spaces/ecommerce.png" alt="" />
               </div>
               <div className="gallery-callout-img gallery-callout-img-4">
-                <img src="/gallery-callout/gallery-callout-4.jpg" alt="" />
+                <img src="/spaces/admin.png" alt="" />
               </div>
             </div>
           </div>
