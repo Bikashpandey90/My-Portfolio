@@ -229,6 +229,68 @@
   border-radius: 4rem;
 }
 
+
+
+/* check */
+
+
+/* .blogo {
+  display: flex;
+  cursor: pointer;
+}
+
+.blogo p {
+  margin: 0px;
+  transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.blogo .name {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 5px;
+  transition: all 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.blogo .name p {
+  position: relative;
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.blogo .name p:nth-of-type(2) {
+  padding-left: 0.3em;
+}
+
+.blogo .name p:nth-of-type(3) {
+  position: absolute;
+  left: 120px;
+  padding-left: 0.3em;
+}
+
+.blogo:hover .copyright {
+  transform: rotate(360deg);
+}
+
+.blogo:hover .name {
+  padding-right: 30px;
+}
+
+.blogo:hover .name .codeBy {
+  transform: translateX(-100%);
+}
+
+.blogo:hover .name .dennis {
+  transform: translateX(-55px);
+}
+
+.blogo:hover .name .snellenberg {
+  transform: translateX(-65px);
+} */
+
+
+/* uptohere */
+
 @media (max-width: 1000px) {
   .what-we-do .container h1 {
     margin-bottom: 8rem;

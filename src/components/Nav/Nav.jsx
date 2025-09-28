@@ -298,9 +298,15 @@ const Nav = () => {
               <div className="sub-col">
                 <div className="menu-meta">
                   <p>Social</p>
-                  <p>Instagram</p>
-                  <p>Facebook</p>
-                  <p>LinkedIn</p>
+                  <p onClick={() => {
+                    window.open("https://www.instagram.com/bika.sh3191/", "_blank")
+                  }}>Instagram</p>
+                  <p onClick={() => {
+                    window.open("https://www.facebook.com/bikash.pandey.783639", "_blank")
+                  }}>Facebook</p>
+                  <p onClick={() => {
+                    window.open("https://www.linkedin.com/in/bikashpandeey/", "_blank")
+                  }}>LinkedIn</p>
                 </div>
               </div>
             </div>

@@ -159,7 +159,7 @@ const HowWeWork = () => {
       <div className="how-we-work-col how-we-work-cards" ref={cardsRef}>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/discovery.png" alt="" />
+            <img src="/how-we-work/newprocess1.png" alt="" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
@@ -177,7 +177,7 @@ const HowWeWork = () => {
         </div>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/design.png" alt="" />
+            <img src="/how-we-work/newprocess2.png" alt="" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
@@ -195,7 +195,7 @@ const HowWeWork = () => {
         </div>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/development.png" alt="" />
+            <img src="/how-we-work/newdevelopment.png" alt="" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">
@@ -212,7 +212,7 @@ const HowWeWork = () => {
         </div>
         <div className="how-we-work-card">
           <div className="how-we-work-card-img">
-            <img src="/how-we-work/deployment.png" alt="" />
+            <img src="/how-we-work/newprocess4.png" alt="" />
           </div>
           <div className="how-we-work-card-copy">
             <div className="how-we-work-card-index-label">

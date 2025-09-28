@@ -50,9 +50,15 @@ const page = () => {
                 <div className="contact-info-block">
                   <Copy delay={1.3}>
                     <p>Social</p>
-                    <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>LinkedIn</p>
+                    <p onClick={() => {
+                      window.open("https://www.instagram.com/bika.sh3191/", "_blank")
+                    }}>Instagram</p>
+                    <p onClick={() => {
+                      window.open("https://www.facebook.com/bikash.pandey.783639", "_blank")
+                    }}>Facebook</p>
+                    <p onClick={() => {
+                      window.open("https://www.linkedin.com/in/bikashpandeey/", "_blank")
+                    }}>LinkedIn</p>
                   </Copy>
                 </div>
               </div>
@@ -64,8 +70,8 @@ const page = () => {
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </section >
+      </div >
       <ConditionalFooter />
     </>
   );

@@ -26,16 +26,16 @@ const Spotlight = () => {
   };
 
   const spotlightItems = [
-    { name: "Ecomstore Platform", img: "/spotlight/spotlight-img-1.jpg" },
-    { name: "RideX Platform", img: "/spotlight/spotlight-img-2.jpg" },
-    { name: "Flower&Saints Clone", img: "/spotlight/spotlight-img-3.jpg" },
-    { name: "ECA Nepal", img: "/spotlight/spotlight-img-4.jpg" },
-    { name: "Search Engine", img: "/spotlight/spotlight-img-5.jpg" },
-    { name: "Dbrand Clone", img: "/spotlight/spotlight-img-6.jpg" },
-    { name: "Admin Dashboard", img: "/spotlight/spotlight-img-7.jpg" },
-    { name: "Soft Passage", img: "/spotlight/spotlight-img-8.jpg" },
-    { name: "Water Column", img: "/spotlight/spotlight-img-9.jpg" },
-    { name: "Golden Retreat", img: "/spotlight/spotlight-img-10.jpg" },
+    { name: "RideX Platform", img: "/spaces/rido2.png" },
+    { name: "Ecomstore Platform", img: "/spaces/ecomstore.png" },
+    { name: "Flower&Saints Clone", img: "/spaces/flower.png" },
+    { name: "ECA Nepal", img: "/spaces/ecanepal2.png" },
+    { name: "Search Engine", img: "/spaces/searchengine.png" },
+    { name: "Dbrand Clone", img: "/spaces/dbrand.png" },
+    { name: "Admin Dashboard", img: "/spaces/admin.png" },
+    { name: "The Chat Platform", img: "/spaces/chatfinal.png" },
+    { name: "RideX Dashbaoard", img: "/spaces/admin4.png" },
+    { name: "The Amazon", img: "/spaces/amazon.png" },
   ];
 
   useEffect(() => {
@@ -294,7 +294,7 @@ const Spotlight = () => {
           </div>
         </div>
         <div className="spotlight-bg-img">
-          <img src="/spotlight/spotlight-img-1.jpg" alt="" />
+          <img src="/spaces/rido2.png" alt="" />
         </div>
       </div>
       <div

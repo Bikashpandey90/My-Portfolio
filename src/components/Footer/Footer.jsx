@@ -125,10 +125,14 @@ const Footer = () => {
         <div className="container footer-socials">
           <div className="footer-meta-col">
             <div className="footer-socials-wrapper" ref={socialIconsRef}>
-              <div className="icon">
+              <div className="icon" onClick={() => {
+                window.open("https://www.linkedin.com/in/bikashpandeey/", "_blank")
+              }}>
                 <RiLinkedinBoxLine />
               </div>
-              <div className="icon">
+              <div className="icon" onClick={() => {
+                window.open("https://www.instagram.com/bika.sh3191/", "_blank")
+              }}>
                 <RiInstagramLine />
               </div>
               <div className="icon">

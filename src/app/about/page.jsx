@@ -40,7 +40,7 @@ const page = () => {
               </Copy>
               <div className="studio-hero-hero-img">
                 {/* <img src="/studio/studio.png" alt="" /> */}
-                <img src="/studio/studio.png" alt="" />
+                <img src="/studio/latestenhanced.jpg" alt="" />
 
               </div>
             </div>
@@ -91,7 +91,8 @@ const page = () => {
           </div>
         </section>
         <CTAWindow
-          img="/studio/about-cta-window.jpg"
+          // img="/studio/about-cta-window.jpg"
+          img="/studio/check.png"
           header="The Archive"
           callout="Designs that speak through code"
           // description="Each project tells a story of light, material, and rhythm. Explore how ideas take shape and grow into lasting environments."

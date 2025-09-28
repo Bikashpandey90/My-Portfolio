@@ -228,8 +228,11 @@ export default function Home() {
         </div>
       )}
       <Cursor />
+
       <Nav />
+
       <section className="hero">
+
         <div className="hero-bg">
           <img src="/home/new.jpg" alt="" />
         </div>
@@ -459,7 +462,8 @@ export default function Home() {
         </div>
       </section>
       <CTAWindow
-        img="/home/home-cta-window.jpg"
+        // img="/home/home-cta-window.jpg"
+        img="/studio/new.png"
         header="Bikash"
         callout='Crafting apps that grow with time'
         // callout="Spaces that breathe with time"
